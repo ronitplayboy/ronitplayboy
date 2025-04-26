@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronit Patel - Your Private Playboy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #e60000;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #e60000;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 350px;
+            margin: 10px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ronit Patel</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome To Your Exclusive Experience</h2>
+        <p>Confidential, Fun, and Memorable Moments Await You!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Ronit</h2>
+        <p>Hello, I'm Ronit Patel — a young, energetic, and charming companion based in Surat (Sachin).<br>
+        With a passion for fitness, dance, and music, I bring vibrancy and positivity to every moment.<br>
+        Whether you're looking for a romantic evening, a fun travel partner, or someone to simply share great vibes with, I am here to create unforgettable experiences.<br>
+        Discretion, respect, and complete client satisfaction are my top priorities. Let's make memories together!</p>
+    </section>
+
+    <section id="services">
+        <h2>My Services</h2>
+        <p>✨ Dinner Dates<br>
+           ✨ Weekend Getaways<br>
+           ✨ Emotional Support<br>
+           ✨ Party Companion<br>
+           ✨ Travel Partner</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1618354691373-82b45c73d7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Gym Look">
+            <img src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" alt="Stylish Pose">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Ready to connect? Let's talk now!</p>
+        <a class="btn" href="https://wa.me/917041858584" target="_blank">Chat on WhatsApp</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Ronit Patel | Confidential and Private Service
+    </footer>
+</body>
+</html>
